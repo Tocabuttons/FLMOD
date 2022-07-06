@@ -4,6 +4,12 @@ tile.chicken_block.name=Bloque de Pollo
 
 // Items
 item.ingot_chicken.name=Lingote de Pollo
+item.chicken_bow.name=Arco de Pollo
+item.flechipolla_arrow=Flechipolla
 
 //Tab
 itemGroup.flechipollamod=Flechipolla Mod
+
+//Entities
+
+entity.flechipolla_arrow.name=Flechipolla

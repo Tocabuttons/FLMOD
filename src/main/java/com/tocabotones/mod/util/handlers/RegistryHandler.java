@@ -2,10 +2,13 @@ package com.tocabotones.mod.util.handlers;
 
 import com.tocabotones.mod.Plantilla;
 import com.tocabotones.mod.init.BlockInit;
+import com.tocabotones.mod.init.EntityInit;
 import com.tocabotones.mod.init.ItemInit;
 import com.tocabotones.mod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
+import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +18,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -50,6 +54,8 @@ public class RegistryHandler {
 
     public static void preInitRegistries() {
 
+        EntityInit.registerEntities();
+        RenderHandler.registerEntityRender();
     }
 
     public static void initRegistries() {

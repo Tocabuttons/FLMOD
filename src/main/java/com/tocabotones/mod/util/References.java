@@ -8,4 +8,6 @@ public class References {
 
     public static final String CLIENT_PROXY_CLASS = "com.tocabotones.mod.proxy.ClientProxy";
     public static final String COMMON_PROXY_CLASS = "com.tocabotones.mod.proxy.CommonProxy";
+
+    public static final int ENTITY_FLECHIPOLLA_ARROW = 251;
 }

@@ -28,17 +28,17 @@ public class Plantilla {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
+        RegistryHandler.preInitRegistries();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event){
-
+        RegistryHandler.initRegistries();
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){
-
+        RegistryHandler.postInitRegistries();
     }
 
     @EventHandler
