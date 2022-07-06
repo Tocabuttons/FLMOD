@@ -1,0 +1,10 @@
+
+//Blocks
+tile.chicken_block.name=Bloque de Pollo
+
+// Items
+item.ingot_chicken.name=Lingote de Pollo
+
+//Tab
+
+itemGroup.flechipollamod=Flechipolla Mod
